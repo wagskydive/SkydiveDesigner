@@ -11,6 +11,6 @@ This repository contains a simple prototype for the **SkyDive Planner** app. It 
 
 ## Running
 
-Open `src/index.html` in a web browser to see the prototype. It includes the welcome screen, a login form, and a placeholder dashboard.
+Open `src/index.html` in a web browser to see the prototype. It includes the welcome screen, a login form, and a placeholder dashboard. If you want to skip the login step, use the **Start Demo** button on the welcome screen.
 
 The prototype is static and uses plain HTML, CSS, and JavaScript.
