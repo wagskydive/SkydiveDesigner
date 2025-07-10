@@ -8,3 +8,14 @@ document.getElementById('btn-signup').addEventListener('click', () => showScreen
 document.getElementById('link-back-welcome').addEventListener('click', () => showScreen('welcome-screen'));
 document.getElementById('btn-login').addEventListener('click', () => showScreen('dashboard-screen'));
 document.getElementById('link-logout').addEventListener('click', () => showScreen('welcome-screen'));
+
+document.getElementById('btn-create').addEventListener('click', () => showScreen('jump-design-screen'));
+document.getElementById('btn-save-jump').addEventListener('click', () => showScreen('dashboard-screen'));
+document.getElementById('link-back-dashboard').addEventListener('click', () => showScreen('dashboard-screen'));
+
+document.getElementById('btn-view-jump').addEventListener('click', () => showScreen('jump-detail-screen'));
+document.getElementById('btn-edit-jump').addEventListener('click', () => showScreen('jump-design-screen'));
+document.getElementById('link-back-dashboard2').addEventListener('click', () => showScreen('dashboard-screen'));
+
+document.getElementById('link-profile').addEventListener('click', () => showScreen('profile-screen'));
+document.getElementById('link-back-dashboard3').addEventListener('click', () => showScreen('dashboard-screen'));

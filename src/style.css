@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+:root {
+    --color-sky-blue: #5CA9E2;
+    --color-cloud-white: #F7F7F7;
+    --color-midnight-blue: #2A3D66;
+    --color-sun-yellow: #FFB400;
+    --color-grass-green: #6CCF63;
+    --color-slate-gray: #A0A8B3;
+}
+
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: #F7F7F7;
-    color: #2A3D66;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    background-color: var(--color-cloud-white);
+    color: var(--color-midnight-blue);
     margin: 0;
     padding: 0;
     display: flex;
@@ -24,19 +35,34 @@ body {
 }
 
 button {
-    background-color: #5CA9E2;
+    background-color: var(--color-sky-blue);
     border: none;
     padding: 10px 20px;
     margin: 5px;
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 700;
 }
 
 input {
     display: block;
     padding: 10px;
     margin: 5px 0;
-    border: 1px solid #A0A8B3;
+    border: 1px solid var(--color-slate-gray);
     border-radius: 5px;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
 }
