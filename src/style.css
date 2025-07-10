@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 
 :root {
     --color-sky-blue: #5CA9E2;
@@ -34,15 +34,25 @@ body {
     display: flex;
 }
 
-button {
-    background-color: var(--color-sky-blue);
-    border: none;
+.btn {
     padding: 10px 20px;
     margin: 5px;
-    color: white;
     border-radius: 5px;
-    cursor: pointer;
     font-weight: 700;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.btn-primary {
+    background-color: var(--color-sky-blue);
+    color: white;
+    border-color: var(--color-sky-blue);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--color-sky-blue);
+    border-color: var(--color-sky-blue);
 }
 
 input {
@@ -53,8 +63,18 @@ input {
     border-radius: 5px;
 }
 
+input::placeholder {
+    color: var(--color-slate-gray);
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--color-sky-blue);
+    box-shadow: 0 0 0 1px var(--color-sky-blue);
+}
+
 h1, h2, h3 {
-    font-family: 'Lora', serif;
+    font-family: 'Lora', 'Merriweather', serif;
 }
 
 h1 {
